@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbaer shop Website Design</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="banner">
+        <img src="/img/logo11-removebg-preview.png" alt="" height="100px" width="100px" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style your Hair Is Stylle your Life..</p>
+            <div class="banner-btn">
+                <a href="#"> <span></span> Find out</a>
+                <a href="#"> <span></span>Read more</a>
+            </div>
+        </div>
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="/img/menu-removebg-preview.png" alt="" id="menu">
+    </div>
+    <!-- FEATURES -->
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>WHY CHOOSE US</h1>
+        </div>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Experienced Staff</h1>
+                <div class="feature desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield"></i>
+
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam non, dicta quae, fuga itaque,
+                            aliquid voluptatem incidunt exercitationem nesciunt id excepturi quasi eaque.</p>
+                    </div>
+                </div>
+                <br><br>
+
+                <h1>Pre Booking Online</h1>
+                <div class="feature desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-check-square-o"></i>
+
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam non, dicta quae, fuga itaque,
+                            aliquid voluptatem incidunt exercitationem nesciunt id excepturi quasi eaque.</p>
+                    </div>
+                </div>
+                <br><br>
+
+                <h1>Affordable Cost</h1>
+                <div class="feature desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-inr"></i>
+
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam non, dicta quae, fuga itaque,
+                            aliquid voluptatem incidunt exercitationem nesciunt id excepturi quasi eaque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="img/b1.jpg" alt="" height="400px">
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+
+
+    
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <div class="over">
+                <img src="/img/s1.jpeg" alt="">
+               
+                <div class="service-desc">
+<h3>Hair Style</h3>
+<hr>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, explicabo deleniti corporis non natus minima minus obcaecati eum excepturi, dicta odio aut tenetur.</p>
+
+                </div>
+            </div>
+            </div>
+            <div class="single-service">
+                <img src="/img/s5.jpg" alt="">
+                <div class="over"></div>
+                <div class="service-desc">
+                    <h3> Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, explicabo deleniti corporis non natus minima minus obcaecati eum excepturi, dicta odio aut tenetur.</p>
+                    
+                                    </div>
+            </div>
+            <div class="single-service">
+                <img src="/img/s3.jpeg" alt="">
+                <div class="over"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, explicabo deleniti corporis non natus minima minus obcaecati eum excepturi, dicta odio aut tenetur.</p>
+                    
+                                    </div>
+            </div>
+            <div class="single-service">
+                <img src="/img/s4.jpeg" alt="">
+                <div class="over"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, explicabo deleniti corporis non natus minima minus obcaecati eum excepturi, dicta odio aut tenetur.</p>
+                    
+                                    </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menubtn = document.getElementById("menu")
+        sidenav.style.right = "-250px"
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+                menu.src = "img/crosss.png";
+            }
+            else {
+                sidenav.style.right = "-250px";
+                menu.src = "img/menu.png";
+            }
+        }
+    </script>
+</body>
+
+</html>
